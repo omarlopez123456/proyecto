@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff;
+        background: #1f242d;
+        background: url('background.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 50px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        filter: drop-shadow(0 0 5px #09001d);
+    }
+
+    .navbar a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+        color: #c40094;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+        color: #ededed;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact form {
+        width: 600px;
+        text-align: center;
+    }
+
+    form .input-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-box .input-field {
+        width: 48.5%;
+    }
+
+    .field .item {
+        width: 100%;
+        padding: 18px;
+        background: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        border-radius: 6px;
+        font-size: 16px;
+        color: #ededed;
+        margin: 12px 0;
+    }
+
+    .field.error .item {
+        border-color: #d93025;
+    }
+
+    .field .item::placeholder {
+        color: rgba(255, 255, 255, .3);
+    }
+
+    .field .error-txt {
+        font-size: 14.5px;
+        color: #d93025;
+        text-align: left;
+        margin: -5px 0 10px;
+        display: none;
+    }
+
+    .field.error .error-txt {
+        display: block;
+    }
+
+    form .textarea-field .item {
+        resize: none;
+    }
+
+    form .textarea-field .error-txt {
+        margin-top: -10px;
+    }
+
+    form button {
+        padding: 12px 32px;
+        background: #c40094;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        box-shadow: 0 0 10px #c40094;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+        margin: 5px;
+        transition: .5s;
+    }
+
+    form button:hover {
+        background: #09001d;
+        box-shadow: none;
+    }
+
+    footer {
+        background: transparent;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff;
+        background: #1f242d;
+        background: url('background.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 32px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        filter: drop-shadow(0 0 5px #09001d);
+    }
+
+    .navbar a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+        color: #c40094;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+        color: #ededed;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact form {
+        width: 600px;
+        text-align: center;
+    }
+
+    form .input-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-box .input-field {
+        width: 48.5%;
+    }
+
+    .field .item {
+        width: 100%;
+        padding: 18px;
+        background: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        border-radius: 6px;
+        font-size: 16px;
+        color: #ededed;
+        margin: 12px 0;
+    }
+
+    .field.error .item {
+        border-color: #d93025;
+    }
+
+    .field .item::placeholder {
+        color: rgba(255, 255, 255, .3);
+    }
+
+    .field .error-txt {
+        font-size: 14.5px;
+        color: #d93025;
+        text-align: left;
+        margin: -5px 0 10px;
+        display: none;
+    }
+
+    .field.error .error-txt {
+        display: block;
+    }
+
+    form .textarea-field .item {
+        resize: none;
+    }
+
+    form .textarea-field .error-txt {
+        margin-top: -10px;
+    }
+
+    form button {
+        padding: 12px 32px;
+        background: #c40094;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        box-shadow: 0 0 10px #c40094;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 20px;
+        margin: 5px;
+        transition: .5s;
+    }
+
+    form button:hover {
+        background: #09001d;
+        box-shadow: none;
+    }
+
+    footer {
+        background: transparent;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    @media (max-width: 600px) {
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 15px 5%;
+        }
+    
+        .logo {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+    
+        .header .navbar {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        .navbar a {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+    
+        .contact form {
+            width: 100%;
+            padding: 0 5%;
+        }
+    
+        form .input-box {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .input-box .input-field {
+            width: 100%;
+        }
+    
+        form button {
+            width: 100%;
+            padding: 12px;
+        }
+
+    }
